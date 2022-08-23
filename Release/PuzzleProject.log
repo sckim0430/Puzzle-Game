@@ -1,0 +1,56 @@
+﻿빌드 시작: 2020-02-05 오전 10:13:44
+     1>2 노드의 "C:\sckim\Project\Puzzle Project\PuzzleProject_Final\PuzzleProject.vcxproj" 프로젝트(Build 대상)입니다.
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /IC:\sckim\opencv\build\include /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D _WINDOWS /D NDEBUG /D _UNICODE /D UNICODE /D _AFXDLL /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yc"stdafx.h" /Fp"Release\PuzzleProject.pch" /Fo"Release\\" /Fd"Release\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /IC:\sckim\opencv\build\include /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D _WINDOWS /D NDEBUG /D _UNICODE /D UNICODE /D _AFXDLL /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt Algorithm.cpp ButtonControl.cpp ImageControl.cpp PuzzleProject.cpp PuzzleProjectDlg.cpp SetDifficultyDlg.cpp TimeControl.cpp
+         Algorithm.cpp
+     1>c:\sckim\project\puzzle project\puzzleproject_final\Algorithm.h(42): warning C4091: 'static ' : 변수를 선언하지 않으면 'Index' 왼쪽은 무시됩니다.
+     1>Algorithm.cpp(19): warning C4244: '인수' : 'time_t'에서 'unsigned int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+         ButtonControl.cpp
+         _WIN32_WINNT not defined. Defaulting to _WIN32_WINNT_MAXVER (see WinSDKVer.h)
+     1>ButtonControl.cpp(57): warning C4101: 'ptTopLeft' :참조되지 않은 지역 변수입니다.
+         ImageControl.cpp
+         _WIN32_WINNT not defined. Defaulting to _WIN32_WINNT_MAXVER (see WinSDKVer.h)
+     1>c:\sckim\opencv\build\include\opencv2\flann\dist.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+     1>c:\sckim\opencv\build\include\opencv2\flann\logger.h(66): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\stdio.h(218) : 'fopen' 선언을 참조하십시오.
+         PuzzleProject.cpp
+     1>c:\sckim\opencv\build\include\opencv2\flann\dist.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+     1>c:\sckim\opencv\build\include\opencv2\flann\logger.h(66): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\stdio.h(218) : 'fopen' 선언을 참조하십시오.
+     1>c:\sckim\project\puzzle project\puzzleproject_final\Algorithm.h(42): warning C4091: 'static ' : 변수를 선언하지 않으면 'Index' 왼쪽은 무시됩니다.
+         PuzzleProjectDlg.cpp
+     1>c:\sckim\opencv\build\include\opencv2\flann\dist.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+     1>c:\sckim\opencv\build\include\opencv2\flann\logger.h(66): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\stdio.h(218) : 'fopen' 선언을 참조하십시오.
+     1>c:\sckim\project\puzzle project\puzzleproject_final\Algorithm.h(42): warning C4091: 'static ' : 변수를 선언하지 않으면 'Index' 왼쪽은 무시됩니다.
+     1>PuzzleProjectDlg.cpp(418): warning C4244: '인수' : 'double'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+     1>PuzzleProjectDlg.cpp(421): warning C4244: '인수' : 'double'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+     1>PuzzleProjectDlg.cpp(669): warning C4244: '인수' : 'double'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+     1>PuzzleProjectDlg.cpp(672): warning C4244: '인수' : 'double'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+     1>PuzzleProjectDlg.cpp(934): warning C4244: '인수' : 'double'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+     1>PuzzleProjectDlg.cpp(937): warning C4244: '인수' : 'double'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+         SetDifficultyDlg.cpp
+         TimeControl.cpp
+         _WIN32_WINNT not defined. Defaulting to _WIN32_WINNT_MAXVER (see WinSDKVer.h)
+       ResourceCompile:
+         C:\Program Files (x86)\Windows Kits\8.0\bin\x86\rc.exe /D NDEBUG /D _UNICODE /D UNICODE /D _AFXDLL /l"0x0412" /IRelease\ /nologo /fo"Release\PuzzleProject.res" PuzzleProject.rc 
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\sckim\Project\Puzzle Project\PuzzleProject_Final\Release\PuzzleProject.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:C:\\sckim\opencv\build\x86\vc11\lib opencv_calib3d2410.lib opencv_contrib2410.lib opencv_core2410.lib opencv_features2d2410.lib opencv_flann2410.lib opencv_gpu2410.lib opencv_highgui2410.lib opencv_imgproc2410.lib opencv_legacy2410.lib opencv_ml2410.lib opencv_nonfree2410.lib opencv_objdetect2410.lib opencv_ocl2410.lib opencv_photo2410.lib opencv_stitching2410.lib opencv_superres2410.lib opencv_ts2410.lib opencv_video2410.lib opencv_videostab2410.lib /MANIFEST:NO /DEBUG /PDB:"C:\sckim\Project\Puzzle Project\PuzzleProject_Final\Release\PuzzleProject.pdb" /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /LTCG /TLBID:1 /ENTRY:"wWinMainCRTStartup" /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\sckim\Project\Puzzle Project\PuzzleProject_Final\Release\PuzzleProject.lib" /MACHINE:X86 /SAFESEH Release\PuzzleProject.res
+         Release\Algorithm.obj
+         Release\ButtonControl.obj
+         Release\ImageControl.obj
+         Release\PuzzleProject.obj
+         Release\PuzzleProjectDlg.obj
+         Release\SetDifficultyDlg.obj
+         Release\stdafx.obj
+         Release\TimeControl.obj
+         코드를 생성하고 있습니다.
+         코드를 생성했습니다.
+         PuzzleProject.vcxproj -> C:\sckim\Project\Puzzle Project\PuzzleProject_Final\Release\PuzzleProject.exe
+     1>"C:\sckim\Project\Puzzle Project\PuzzleProject_Final\PuzzleProject.vcxproj" 프로젝트를 빌드했습니다(Build 대상).
+
+빌드했습니다.
+
+경과 시간: 00:00:18.67
