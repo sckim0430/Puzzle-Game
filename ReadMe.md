@@ -15,4 +15,4 @@ Implemented through MFC framework and OpenCV library in Visual Studio 2015 envir
 
 ## Running Video
 
-Execution video will be uploaded later.
+![KakaoTalk_20220927_125718651](https://user-images.githubusercontent.com/63839581/192539615-f3eb395c-8de4-46df-b76f-d108b762fa83.gif)
